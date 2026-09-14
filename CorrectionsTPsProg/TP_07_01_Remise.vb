@@ -13,7 +13,7 @@
         Else
             remise = 2
         End If
-        Console.WriteLine("Remise de  : " + remise.ToString() + "\%")
+        Console.WriteLine("Remise de  : " + remise.ToString() + "%")
         montantNet = montantSaisi - (montantSaisi * remise / 100)
         Console.WriteLine("Le montant net est : " + montantNet.ToString())
     End Sub

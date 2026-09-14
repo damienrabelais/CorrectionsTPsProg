@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DC4B6CAF-744A-4C21-8CE6-3C6788A92B0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CorrectionsTPsProg.TP_07_01_Remise</StartupObject>
+    <StartupObject>CorrectionsTPsProg.TP_07_02_Location</StartupObject>
     <RootNamespace>CorrectionsTPsProg</RootNamespace>
     <AssemblyName>CorrectionsTPsProg</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,6 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TP_07_02_Location.vb" />
     <Compile Include="TP_07_01_Remise.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -85,7 +86,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="TP_07_02_Location.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
