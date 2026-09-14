@@ -69,6 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Test.vb" />
     <Compile Include="TP_07_02_Location.vb" />
     <Compile Include="TP_07_01_Remise.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -86,6 +87,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TP_07_03_Calcul_Salaire.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
