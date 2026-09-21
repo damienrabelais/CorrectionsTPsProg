@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DC4B6CAF-744A-4C21-8CE6-3C6788A92B0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CorrectionsTPsProg.TP_07_02_Location</StartupObject>
+    <StartupObject>CorrectionsTPsProg.TP_09_04_Ventout</StartupObject>
     <RootNamespace>CorrectionsTPsProg</RootNamespace>
     <AssemblyName>CorrectionsTPsProg</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -88,6 +88,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="TP_07_03_Calcul_Salaire.vb" />
+    <Compile Include="TP_09_01_Moyenne_While.vb" />
+    <Compile Include="TP_09_02_Moyenne_Do_Loop.vb" />
+    <Compile Include="TP_09_03_Nombres_Pairs.vb" />
+    <Compile Include="TP_09_04_Ventout.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

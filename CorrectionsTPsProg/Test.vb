@@ -1,16 +1,22 @@
 ﻿Module Test
-    Sub main()
-        Dim n, i, Somme As Integer
-        Do
-            Console.WriteLine("Saisir le nombre :")
-            n = Console.ReadLine()
-        Loop Until n > 0
-        Somme = 0
-        For i = 10 To 100 Step 10
-            Somme = Somme + i
-        Next
-        Console.WriteLine("La somme vaut : " + Somme.ToString())
-        Console.WriteLine()
 
-    End Sub
+    Function PlusGrand(ByVal pX As Integer, ByVal pY As Integer) As Integer
+        If pX > pY Then
+            Return pX
+        Else
+            Return pY
+        End If
+    End Function
+
+
+    Sub Main() ' Programme principal
+        Dim a, b As Integer
+        Console.WriteLine("Entrer le premier nombre.")
+        a = Console.ReadLine()
+        Console.WriteLine("Entrer le deuxième nombre.")
+        b = Console.ReadLine()
+        Console.WriteLine("Le plus grand des deux est : " + PlusGrand(a, b).ToString())
+        ' PlusGrand(a, b), Appel de la fonction
+        Console.ReadLine()
+    End Sub ' Fin du main
 End Module
