@@ -1,4 +1,4 @@
-﻿Module TP11_01_Perimetre_et_Surface
+﻿Module TP_11_01_Perimetre_et_Surface
     Function PérimètreCercle(ByVal pRayon As Double) As Double
         Dim périmètre As Double  'périmètre est une variable locale à la fonction
         périmètre = 2 * Math.PI * pRayon

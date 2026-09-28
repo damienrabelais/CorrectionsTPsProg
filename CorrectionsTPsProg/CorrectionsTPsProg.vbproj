@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DC4B6CAF-744A-4C21-8CE6-3C6788A92B0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CorrectionsTPsProg.TP11_01_Perimetre_et_Surface</StartupObject>
+    <StartupObject>CorrectionsTPsProg.TP_11_01_Perimetre_et_Surface</StartupObject>
     <RootNamespace>CorrectionsTPsProg</RootNamespace>
     <AssemblyName>CorrectionsTPsProg</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -70,7 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.vb" />
-    <Compile Include="TP11_01_Perimetre_et_Surface.vb" />
+    <Compile Include="TP_11_01_Perimetre_et_Surface.vb" />
     <Compile Include="TP_07_02_Location.vb" />
     <Compile Include="TP_07_01_Remise.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
