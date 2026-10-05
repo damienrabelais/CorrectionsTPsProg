@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DC4B6CAF-744A-4C21-8CE6-3C6788A92B0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CorrectionsTPsProg.TP_11_01_Perimetre_et_Surface</StartupObject>
+    <StartupObject>CorrectionsTPsProg.TP_11_03_Relativite_restreinte</StartupObject>
     <RootNamespace>CorrectionsTPsProg</RootNamespace>
     <AssemblyName>CorrectionsTPsProg</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -93,6 +93,8 @@
     <Compile Include="TP_09_02_Moyenne_Do_Loop.vb" />
     <Compile Include="TP_09_03_Nombres_Pairs.vb" />
     <Compile Include="TP_09_04_Ventout.vb" />
+    <Compile Include="TP_11_02_Factorielle.vb" />
+    <Compile Include="TP_11_03_Relativite_restreinte.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

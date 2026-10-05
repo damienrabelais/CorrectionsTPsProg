@@ -1,22 +1,28 @@
 ﻿Module Test
 
-    Function PlusGrand(ByVal pX As Integer, ByVal pY As Integer) As Integer
-        If pX > pY Then
-            Return pX
-        Else
-            Return pY
-        End If
+    Function Factorielle(ByVal pN As Integer) As Integer
+        Dim fact, i As Integer
+        fact = 1
+        For i = 1 To pN
+            fact = fact * i
+        Next
+
+        Return fact
     End Function
 
 
     Sub Main() ' Programme principal
-        Dim a, b As Integer
-        Console.WriteLine("Entrer le premier nombre.")
-        a = Console.ReadLine()
-        Console.WriteLine("Entrer le deuxième nombre.")
-        b = Console.ReadLine()
-        Console.WriteLine("Le plus grand des deux est : " + PlusGrand(a, b).ToString())
-        ' PlusGrand(a, b), Appel de la fonction
-        Console.ReadLine()
+        Dim n As Integer
+
+        Do
+            Console.WriteLine("Saisir un nombre >= 0")
+            n = Console.ReadLine()
+            If n < 0 Then
+                Console.WriteLine("n > 0")
+            End If
+        Loop Until n >= 0
+        Console.WriteLine("La factorielle de ce nombre est " + Factorielle(n).ToString())
+
+
     End Sub ' Fin du main
 End Module
