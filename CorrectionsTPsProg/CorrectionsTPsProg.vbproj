@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DC4B6CAF-744A-4C21-8CE6-3C6788A92B0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CorrectionsTPsProg.TP_11_03_Relativite_restreinte</StartupObject>
+    <StartupObject>CorrectionsTPsProg.TP_13_01_02_Plus_petit_plus_grand</StartupObject>
     <RootNamespace>CorrectionsTPsProg</RootNamespace>
     <AssemblyName>CorrectionsTPsProg</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -95,6 +95,10 @@
     <Compile Include="TP_09_04_Ventout.vb" />
     <Compile Include="TP_11_02_Factorielle.vb" />
     <Compile Include="TP_11_03_Relativite_restreinte.vb" />
+    <Compile Include="TP_13_01_01_Libelles_Mois.vb" />
+    <Compile Include="TP_13_01_02_Plus_petit_plus_grand.vb" />
+    <Compile Include="TP_13_01_03_Conversion_en_base_2_8.vb" />
+    <Compile Include="TP_13_01_04_Conversion_Euro_vers_monnaies_nationales.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
