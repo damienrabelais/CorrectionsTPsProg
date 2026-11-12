@@ -11,6 +11,34 @@
         Dim codeDevise As String
         Dim i As Integer = 0
 
+
+        Do
+            Do
+                Console.WriteLine("Montant en euros ou 0 ?")
+                montantEnEuros = Console.ReadLine()
+                If montantEnEuros < 0 Then
+                    Console.WriteLine("Montant >= 0 ?")
+                End If
+            Loop Until montantEnEuros >= 0
+            If montantEnEuros <> 0 Then ' Sinon on sort
+                Console.WriteLine("Code devise ?")
+                codeDevise = Console.ReadLine()
+                i = 0
+                While codeDevise <> devises(i) And i < MAXDEVISES - 1
+                    i = i + 1
+                End While
+                If codeDevise = devises(i) Then
+                    Console.WriteLine("Montant dans l'ancienne monnaie nationale : " + (taux(i) * montantEnEuros).ToString())
+                Else
+                    Console.WriteLine("Devise non trouvée")
+                End If
+            End If
+            Console.WriteLine(vbCrLf + "//////////////////////" + vbCrLf)
+        Loop Until montantEnEuros = 0
+        Console.WriteLine("Au revoir.")
+        Console.ReadLine()
+
+
     End Sub
 
 
